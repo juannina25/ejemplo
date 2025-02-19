@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    
+    </style>
 </head>
 <body>
     <form>
         <div>
-            <label>Nombre</label>
-            <input type="text">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
         </div>
         <div>
             <label>Numero</label>
@@ -24,8 +27,28 @@
             <input type="email">
         </div>
         <div>
+            <label>Telefono</label>
+            <input type="tel">
+        </div>
+        <div>
             <label>Documento</label>
             <input type="file">
+        </div>
+        <div>
+            <label>Contraseña</label>
+            <input type="password" minlength="2" maxlength="10">
+        </div>
+        <div>
+            <label>Color</label>
+            <input type="color">
+        </div>
+        <div>
+            <label>Rango</label>
+            <input type="range" >
+        </div>
+        <div>
+            <label>Url</label>
+            <input type="url">
         </div>
     </form>
 </body>
