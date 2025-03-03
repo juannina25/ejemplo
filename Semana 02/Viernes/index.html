@@ -9,9 +9,9 @@
             border: 0;
             background-color: black;
             color: white;
-            padding: 100px;
-            /* width: 100px;
-            height: 50px; */
+            padding: 10px;
+            min-width: 10px;
+            height: 50px;
             border-radius: 10px;
         }
         button:hover {
@@ -21,6 +21,15 @@
         a:visited{
             color: brown;
         }
+        
+        .especial{
+            color: red;
+        }
+
+        #unico{
+            color: green;
+        }
+        
         /* h1{
             color: green;
         }
@@ -30,20 +39,57 @@
         body{
             background-color: rgb(167, 204, 236);
         } */
+
+        .card{
+            background-color: #272729;
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        img{
+            border-radius: 5px;
+            height: 150px;
+        }
+
+        .card-titulo{
+            color: #eee;
+        }
+
+        .card-descripcion{
+            color: #e6e6e6;
+        }
     </style>
 </head>
 <body>
-    <h1>Esto es una prueba con CSS</h1>
+    <!-- <h1>Esto es una prueba con CSS</h1>
     <p>Esto es una prueba con CSS</p>
     <p>Esto es una prueba con CSS</p>
     <p>Esto es una prueba con CSS</p>
     <p>Esto es una prueba con CSS</p>
 
 
-    <button>
-        Nuevo Boton
-    </button>
-    <a href="#">Este es un link</a>
+    <button>Nuevo Boton</button>
+    <button id="unico">Nuevo Boton</button>
+    <button class="especial">Nuevo Boton</button>
+    <button class="especial">Nuevo Boton</button>
+
+    <a href="#">Este es un link</a> -->
     
+    <div class="card">
+        <img src="../../Semana 01/FOTO.webp" alt="foto" width="300px">
+        <div>
+            <p class="card-titulo">Ciecias de la comunciacion</p>
+            <p class="card-descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed earum, expedita accusamus velit quaerat eius. Aspernatur quos aut laborum aperiam, iure blanditiis illo doloribus deserunt dignissimos fugiat at incidunt porro?</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../../Semana 01/FOTO.webp" alt="foto" width="300px">
+        <div>
+            <p class="card-titulo">Marketing integral</p>
+            <p class="card-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt laudantium obcaecati unde fugit. Ducimus facere exercitationem animi excepturi, provident blanditiis voluptate non, numquam deserunt vitae, labore asperiores magnam itaque!</p>
+        </div>
+    </div>
 </body>
 </html>
