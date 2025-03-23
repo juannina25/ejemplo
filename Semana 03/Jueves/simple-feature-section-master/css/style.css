@@ -23,4 +23,29 @@ body{
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
+
+  background-color: var(--body-background);
+}
+
+
+h1, h3{
+    color: var(--title-color);
+}
+
+main{
+    display: flex;
+    gap: 10px;
+    
+}
+
+p{
+    color: var(--gray1);
+}
+/* Estilos para las tarjetas */
+article{
+    background-color: var(--card-background);
+}
+
+.card-description{
+    color: var(--gray2);
 }
