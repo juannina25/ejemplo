@@ -32,11 +32,10 @@ body{
 
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   gap: 3em;
-
 }
 
 
@@ -53,11 +52,13 @@ main{
     display: flex;
     gap: 3em;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 header{
     text-align: center;
     width: 400px;
+    margin-top: 3em;
 }
 
 header h1{
@@ -86,8 +87,6 @@ article{
     padding: .5em;
     font-size: 30px;
     border-radius: 50%;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 article img{
@@ -112,4 +111,16 @@ article p {
 
 .card-description{
     color: var(--gray2);
+}
+
+@media (width <1090px){
+    body {
+        padding: 3em 0;
+    }
+}
+
+@media (width <= 640px){
+    header{
+        width: 95%;
+    }
 }
